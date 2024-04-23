@@ -13,7 +13,7 @@ public class DBUtil {
     private static EntityManagerFactory emf;
     
     // EntityManagerインスタンスを生成
-    public static EntityManager creatEntityManager() {
+    public static EntityManager createEntityManager() {
         return _getEntityManagerFactory().createEntityManager();
     }
     
